@@ -1,0 +1,26 @@
+head {
+  font-family: sans-serif;
+  color: red;
+}
+
+h1 {
+  font-family: sans-serif;
+  color: #FE3131;
+}
+
+h2{
+  color: #FE3131;
+}
+body{
+  font-family: sans-serif;
+  color: #B1DFFE;
+  background-color: #034571;
+}
+
+a {
+  color: #B1DFFE;
+}
+
+footer{
+  color: #BBC4C6
+}
