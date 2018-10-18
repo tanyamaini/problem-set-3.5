@@ -11,3 +11,17 @@ body{
 a{
   color: black;
 }
+
+.nav-bar{
+background-color: #B1DFFE;
+height: 50px;
+}
+
+.nav-bar-links{
+  display: inline-block;
+  padding: 10px;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+}

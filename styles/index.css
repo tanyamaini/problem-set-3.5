@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 head {
   font-family: sans-serif;
   color: red;
@@ -13,14 +18,33 @@ h2{
 }
 body{
   font-family: sans-serif;
-  color: #B1DFFE;
-  background-color: #034571;
+  color: #034571;
+  background-color: #B1DFFE;
 }
 
-a {
-  color: #B1DFFE;
+a.div {
+  color: red;
 }
 
 footer{
   color: #BBC4C6
+}
+
+*.image{
+  width: 100%;
+  height: 200px;
+}
+
+.nav-bar{
+background-color: #fc7979;
+height: 50px;
+}
+
+.nav-bar-links{
+  display: inline-block;
+  padding: 10px;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
 }
