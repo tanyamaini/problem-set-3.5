@@ -1,5 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .nav-bar{
-background-color: #B1DFFE;
+background-color: #034571;
+background-color: navy;
 height: 50px;
 }
 
@@ -10,4 +16,82 @@ height: 50px;
   left:0;
   right:0;
   bottom: 0;
+}
+
+
+#image{
+  border: white 2px solid;
+  height: 300px;
+}
+
+h1{
+  font:35px sans-serif;
+  color: #034571;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+
+body{
+  font-family: sans-serif;
+  color: navy;
+  background-color: #B1DFFE;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-style: normal;
+  font-size: 17px;
+}
+
+ul{
+  margin-left: 20px;
+}
+
+ol{
+  margin-left: 10px;
+}
+
+.colleges{
+  color: #107abc;
+  margin-left: 20px;
+}
+
+
+.colleges:link{
+  color: #107abc;
+}
+
+.colleges:visited{
+  color:#7d5ef9
+}
+
+.colleges:hover{
+  color: #36a7ed;
+}
+
+li span{
+  color: white;
+}
+
+li span:hover{
+  color: #B1DFFE;
+}
+
+a[href="mailto:info@example.com"]:link{
+  color: #107abc;
+}
+
+a[href="mailto:info@example.com"]:hover{
+  color: #36a7ed;
+}
+
+a[href="https://www.ucvts.tec.nj.us/Page/32#calendar4326/20181012/month"]:link{
+  color: #107abc;
+}
+
+a[href="https://www.ucvts.tec.nj.us/Page/32#calendar4326/20181012/month"]:visited{
+  color: #7d5ef9;
+}
+
+a[href="https://www.ucvts.tec.nj.us/Page/32#calendar4326/20181012/month"]:hover{
+  color: #36a7ed;
 }
