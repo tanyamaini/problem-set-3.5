@@ -39,22 +39,14 @@ background-color: navy;
 height: 50px;
 }
 
-.nav-bar-links{
+/*.nav-bar-links{
   display: inline-block;
   padding: 10px;
   top: 0;
   left:0;
   right:0;
   bottom: 0;
-}
-
-li span{
-  color: white;
-}
-
-li span:hover{
-  color: #B1DFFE;
-}
+}*/
 
 a[href="mailto:info@example.com"]:link{
   color: #107abc;
@@ -74,4 +66,21 @@ a[href="https://www.ucvts.tec.nj.us/Page/32#calendar4326/20181012/month"]:visite
 
 a[href="https://www.ucvts.tec.nj.us/Page/32#calendar4326/20181012/month"]:hover{
   color: #36a7ed;
+}
+
+ul > li{
+display: inline-block;
+padding: 10px;
+top: 0;
+left:0;
+right:0;
+bottom: 0;
+}
+
+li span{
+  color: white;
+}
+
+li span:hover{
+  color: #B1DFFE;
 }
