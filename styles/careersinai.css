@@ -46,7 +46,7 @@ ul{
   margin-left: 20px;
 }
 
-ol{
+ol > li{
   margin-left: 10px;
 }
 
